@@ -26,3 +26,13 @@ const userSchema = new Schema({
         ref:"Video"
     }]
 },{timestamps: true})
+
+
+
+
+
+
+
+
+
+export  const {User} = mongoose.model("User",userSchema) 
