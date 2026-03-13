@@ -111,6 +111,32 @@ const loginUser = asyncHandler(async(req,res) => {
 })
 
 
+const logoutUser = asyncHandler(async(req,res) => { 
+    const user = req.user
+    if(!user){
+        throw new ApiError(402,"Unauthorized request")
+    }
+
+    await User.findByIdAndUpdate(user._id,{
+        $unset:{
+            refreshToken:1
+        }
+    },
+{
+    new: true
+})
+})
+
+const options = {
+    httpOnly: true,
+    secure: true
+}
+return res.status(200).cookie("accessToken",options).cookie("refreshToken",options)
+.json(new ApiResponse(200,{},"User logged out successful"))
 
 
-export {registerUser,loginUser}
+
+
+
+
+export {registerUser,loginUser,logoutUser}
