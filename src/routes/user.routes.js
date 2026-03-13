@@ -1,4 +1,4 @@
-import { registerUser } from "../controllers/user.controller";
+import { registerUser,loginUser } from "../controllers/user.controller";
 import {Router} from "express"
 
 
@@ -12,5 +12,7 @@ router.route("/register").post(upload.files([{
     name:"coverImage",
     maxCount:1
 }]),registerUser)
+
+router.route("/login").get(loginUser)
 
 
