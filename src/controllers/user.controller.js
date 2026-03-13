@@ -48,3 +48,6 @@ const registerUser = asyncHandler(async(req,res) => {
     const registeredUser = await User.findById(user._id).select("-password","-refreshToken")
 
 })
+
+
+export {registerUser}
