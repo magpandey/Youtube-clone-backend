@@ -26,3 +26,5 @@ const verifyJwtToken = asyncHandler(async(req,_,next) => {
         throw new ApiError(500," Unable to process the request  ")
     }
 })
+
+export {verifyJwtToken}

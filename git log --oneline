@@ -1,0 +1,126 @@
+[33mcommit 3d67702580b91ddbe6a0b3bd63ab68d402e377a4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Fri Mar 13 10:49:16 2026 +0530
+
+    Implement logout functionality and update user controller to handle token removal
+
+[33mcommit e6037e6fc90dfc299fe68d0bb873a4be988077dc[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Fri Mar 13 10:31:06 2026 +0530
+
+    Add JWT token verification middleware and update user routes to include login functionality
+
+[33mcommit 5a22fa8995e3106b3bc76f896c299c7ffa015fb7[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Fri Mar 13 10:08:28 2026 +0530
+
+    Implement user login functionality with JWT token generation and error handling
+
+[33mcommit 2af2918ca8fc84f47ee771cba6f917592dfbb61a[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Fri Mar 13 09:28:21 2026 +0530
+
+    Add user registration route and update controller to return registered user details
+
+[33mcommit 3b88a895511c6a9724d172235c6d15d48ce5ded3[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Fri Mar 13 09:21:20 2026 +0530
+
+    Implement user registration with file uploads and enhance user model
+
+[33mcommit e84d538386a4a535e3f5d8af17c2f7c82de823a3[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Wed Mar 11 21:51:06 2026 +0530
+
+    Add multer middleware for file upload handling
+
+[33mcommit 40e19e3bb13930d41d44c57f2c516289de986df4[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Wed Mar 11 21:45:10 2026 +0530
+
+    Add cloudinary utility for image uploads and file management
+
+[33mcommit 6e10d1ea385dbdd2a9aecf04f5d17c82701b845e[m
+Merge: 69f88c3 d5f2930
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Wed Mar 11 21:32:53 2026 +0530
+
+    Merge branch 'main' of https://github.com/magpandey/Youtube-clone-backend
+
+[33mcommit 69f88c343f2500de2064bca9074b32f4abc44905[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Wed Mar 11 21:30:02 2026 +0530
+
+    Enhance user model with password hashing and JWT token generation
+
+[33mcommit 311fcb418ae509857dc5654483cdba812443a7ac[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Wed Mar 11 20:57:23 2026 +0530
+
+    Fix cors middleware usage and correct typo in asyncHandler utility
+
+[33mcommit aee92392991b20f72e3602f4ac9c19cb7fe56df8[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Wed Mar 11 20:54:20 2026 +0530
+
+    Add ApiResponse class for standardized API responses
+
+[33mcommit e54f264e20058dfd2c3549ba52fecf14bdd74e95[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Wed Mar 11 20:49:57 2026 +0530
+
+    Add ApiError class for standardized error handling and update package dependencies
+
+[33mcommit d5f29307f473befc7706627db11c15e767a0a895[m
+Author: Vinayak Pandey <116100288+magpandey@users.noreply.github.com>
+Date:   Mon Mar 9 18:45:29 2026 +0530
+
+    Add acknowledgment for Chai Aur Code channel
+    
+    Added acknowledgment to the YouTube channel 'Chai Aur Code' for guidance.
+
+[33mcommit 0c44061d801f52ffda0ca4768b17191041a6530a[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Mon Mar 9 18:42:30 2026 +0530
+
+    Add multer dependency, update user model, and implement asyncHandler utility
+
+[33mcommit 8f4fc71e521b314aa9e51f18404e32cb871bea31[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Mon Mar 9 18:31:47 2026 +0530
+
+    Add express setup, database connection, and user model implementation
+
+[33mcommit 1c24ace4a453f02cb651cc9ef80014d999f1a043[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Mon Mar 9 17:54:37 2026 +0530
+
+    Add initial database and user model files
+
+[33mcommit 2600934f99262e0e4acec2a10562f8f5ba686689[m
+Merge: 34b9c00 db50116
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Sun Mar 1 12:15:04 2026 +0530
+
+    Merge branch 'main' of https://github.com/magpandey/Youtube-clone-backend
+
+[33mcommit 34b9c00b780ea34fa93015d9231b4a3f0b77ca75[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Sun Mar 1 12:13:10 2026 +0530
+
+    first commit for setup
+
+[33mcommit db50116bb930f8241d0f76171c04d32140cfa365[m
+Author: Vinayak Pandey <116100288+magpandey@users.noreply.github.com>
+Date:   Sun Mar 1 10:36:42 2026 +0530
+
+    Initialize README with project overview
+    
+    Added project description for Youtube Backend.
+
+[33mcommit 457de9b10ebdcb6418a5033b8f6b06a755276bae[m
+Author: Vinayak Pandey <pandeyvinayak589@gamil.com>
+Date:   Sun Mar 1 10:35:28 2026 +0530
+
+    first commit
+afsd
